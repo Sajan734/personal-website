@@ -26,14 +26,13 @@ export default function Home() {
         </div>
       </div>
       {/* about me section */}
-      <div className="bg-white p-20 mx-10 md:mx-24 lg:mx-48 grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="col-span-1">
-          <h1 className="text-4xl">About Me</h1>
-          <p className="text-lg">e</p>
+      <div className="bg-white p-20 mx-10 md:mx-24 lg:mx-48 grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div className="col-span-1 md:col-span-2">
+          <h1 className="text-4xl mb-4">About Me</h1>
+          <p className="text-lg">Team-oriented student looking for an opportunity to demonstrate strong communication and leadership ability. Works well in challenging and high-pressure environments. Eager to help foster community.</p>
         </div>
         <div className="col-span-1">
-          <h1 className="text-4xl">About Me</h1>
-          <p className="text-lg">e</p>
+          <img src="images/sajan.png" className="w-full hover:-translate-y-5 ease-out duration-500 hover:scale-105 hover:shadow-2xl transition-all"></img>
         </div>
       </div>
       {/* skills */}
